@@ -29,7 +29,8 @@
     },
     "require": {
         "php": "8.*",
-        "laravel/framework": ">=9.0"
+        "laravel/framework": ">=9.0",
+        "laravel/helpers": "1.*"
     },
     "autoload": {
         "psr-0": {
