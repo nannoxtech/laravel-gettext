@@ -7,3 +7,4 @@ doc/laravel5.txt
 composer.lock
 composer.phar
 .idea
+.DS_Store

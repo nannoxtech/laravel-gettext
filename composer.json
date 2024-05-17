@@ -1,7 +1,7 @@
 {
-    "name": "dotworkers/laravel-gettext",
+    "name": "eborio/laravel-gettext",
     "description": "Adds localization support to laravel applications in an easy way using Poedit and GNU gettext.",
-    "homepage": "https://github.com/zerospam/laravel-gettext",
+    "homepage": "https://github.com/eborio/laravel-gettext",
     "keywords": [
         "gettext",
         "localization",
@@ -18,25 +18,21 @@
         {
             "name": "Antoine Aflalo",
             "email": "dev+laravel_gettext@zerospam.ca"
+        },
+        {
+            "name": "Eborio Linárez",
+            "email": "eborio.linarez@dotworkers.com"
         }
     ],
     "support": {
-        "issues": "https://github.com/zerospam/laravel-gettext/issues"
+        "issues": "https://github.com/eborio/laravel-gettext/issues"
     },
     "require": {
-        "php": "^7.1|^8.0",
-        "laravel/framework": "^6.0 || ^7.0 || ^8.0 || ^9.0 || ^10.0",
-        "laravel/helpers": "^1.1"
-    },
-    "require-dev": {
-        "mockery/mockery": "dev-master",
-        "phpunit/phpunit": "^8.0 || ^8.5",
-        "squizlabs/php_codesniffer" : "1.5.*",
-        "laravel/laravel": "^6.0 || ^7.0",
-        "php-coveralls/php-coveralls": "^2.1"
+        "php": "8.*",
+        "laravel/framework": ">=9.0"
     },
     "autoload": {
-        "psr-0": {
+        "psr-4": {
             "Xinax\\LaravelGettext\\": "src/"
         },
         "files": [
